@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PointerSettingsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="126dp"
+        android:text="@string/pointer_settings_activity_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonChangePointerForm1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="109dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pointer_settings_activity_form1"
+        android:minHeight="48dp"
+        android:onClick="onClickChangeForm1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/locationpointer_8377411" />
+
+    <ImageButton
+        android:id="@+id/imageButtonChangePointerForm2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="54dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pointer_settings_activity_form2"
+        android:minHeight="48dp"
+        android:onClick="onClickChangeForm2onClickChangeForm2"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonChangePointerForm1"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/pointer2" />
+
+    <ImageButton
+        android:id="@+id/imageButtonChangePointerForm3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="109dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/pointer_settings_activity_form3"
+        android:minHeight="48dp"
+        android:onClick="onClickChangeForm3"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonChangePointerForm2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pointer3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

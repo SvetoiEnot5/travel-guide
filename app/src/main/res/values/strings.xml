@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">City_Sight</string>
+    <string name="pointer_settings_activity_name">Выбор формы указателя</string>
+    <string name="pointer_settings_activity_form1">Форма указателя 1</string>
+    <string name="pointer_settings_activity_form2">Форма указателя 2</string>
+    <string name="pointer_settings_activity_form3">Форма указателя 3</string>
+</resources>
